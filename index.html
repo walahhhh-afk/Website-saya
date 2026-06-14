@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEMBERITAHUAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- LAYER 1: Pembuka -->
+        <section class="layer active" id="layer-1">
+            <div class="icon">✉️</div>
+            <h2>>>PEMBERITAHUAN<<</h2>
+            <p>Haii, Amad kecil yang  dulu kau kenal memang begitu, dia tidak suka menyelesaikan apa yang dia buat, masih suka bercanda, egonya tinggi, bisa manja bisa sok logis, lebih suka kalo kaka chin imbangi apa yang dia mau.</p>
+            <button class="btn-next" onclick="pindahLayer(2)">Lanjut</button>
+        </section>
+
+        <!-- LAYER 2: Kenangan & Apresiasi -->
+        <section class="layer" id="layer-2">
+            <h2>Tentang Perjalanan Kita</h2>
+            <p>Pertama, aku mau berterima kasih atas semua waktu, tawa, dan kenangan yang sudah kita lewati bareng selama pacaran. Kamu orang baik, dan ada banyak momen berharga yang gak akan pernah aku lupakan dari hubungan kita.</p>
+            <p>Tapi belakangan ini, aku sadar kalau hubungan kita rasanya sudah berbeda, dan kita berdua mungkin butuh ruang yang berbeda juga untuk tumbuh.</p>
+            <button class="btn-next" onclick="pindahLayer(3)">Lanjut</button>
+        </section>
+
+        <!-- LAYER 3: Alasan & Keputusan -->
+        <section class="layer" id="layer-3">
+            <h2>Keputusan Terbaik</h2>
+            <p>Aku sudah memikirkan hal ini matang-matang. Demi kebaikan kita berdua, rasanya jalan terbaik untuk hubungan kita adalah dengan menyudahinya di sini. Aku gak mau kita terus memaksakan sesuatu yang justru perlahan malah saling menyakiti.</p>
+            <p>Ini bukan keputusan yang mudah buat aku, tapi aku rasa ini yang paling jujur dan terbaik untuk masa depan kita masing-masing.</p>
+            <button class="btn-next" onclick="pindahLayer(4)">Lanjut</button>
+        </section>
+
+        <!-- LAYER 4: Penutup & Link Balik ke WA -->
+        <section class="layer" id="layer-4">
+            <h2>UNTUK KAKA CHIN</h2>
+            <p>"Amad kecil minta maaf ya...selalu melempar masalah yang aku buat ke kaka😄,  maaf juga untuk waktu yang terbuang dari kaka saat merawat amad kecil, dan amad kecil ijin pamit untuk selamanya."</p>
+            <p class="selesai-text">untuk ucapan terimakasih dari amad kecil biar bang al yang mengucapkan di suatu saat nanti.</p>
+            <button class="btn-finish" onclick="kembaliKeWA()">Kembali</button>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
